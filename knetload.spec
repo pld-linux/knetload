@@ -49,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_iconsdir}/*/*/*/*.png
 %{_desktopdir}/kde/*.desktop
-%{_datadir}/apps/%{name}/icons/hicolor/16x16/actions/*.png
+%{_datadir}/apps/%{name}
