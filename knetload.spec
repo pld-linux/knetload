@@ -10,6 +10,7 @@ Source0:	http://flameeyes.web.ctonet.it/files/%{name}-%{version}.tar.bz2
 URL:		http://extragear.kde.org/apps/knetload.php
 BuildRequires:	arts-devel
 BuildRequires:	artsc-devel
+BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 3.0.3
 BuildRequires:	rpmbuild(macros) >= 1.129
 Requires:	doxygen
@@ -27,6 +28,7 @@ KNetLoad to ma³y miernik obci±¿enia sieci dla Kickera.
 %setup -q
 
 %build
+cp -f /usr/share/automake/config.sub admin
 kde_htmldir="%{_kdedocdir}"; export kde_htmldir
 %configure
 
