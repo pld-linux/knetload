@@ -30,7 +30,8 @@ KNetLoad to ma³y miernik obci±¿enia sieci dla Kickera.
 %build
 cp -f /usr/share/automake/config.sub admin
 kde_htmldir="%{_kdedocdir}"; export kde_htmldir
-%configure
+%configure \
+	--with-qt-libraries=%{_libdir}
 
 %{__make}
 
