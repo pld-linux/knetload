@@ -1,5 +1,5 @@
 Summary:	KNetLoad - a small network load meter for Kicker
-Summary(pl.UTF-8):   KNetLoad - mały miernik obciążenia sieci dla Kickera
+Summary(pl.UTF-8):	KNetLoad - mały miernik obciążenia sieci dla Kickera
 Name:		knetload
 Version:	2.3
 Release:	0.2
